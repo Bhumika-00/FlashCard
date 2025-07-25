@@ -1,0 +1,23 @@
+.user-card {
+  padding: 1rem;
+  background-color: #f3e8ff;
+  border: 2px solid #d8b4fe;
+  border-radius: 10px;
+  width: 320px; /* 🔧 increased from 200px to 320px */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.user-card:hover {
+  transform: scale(1.03);
+}
+
+.user-card h4 {
+  margin-bottom: 0.5rem;
+  color: #6b21a8;
+}
+
+.user-card p {
+  font-size: 0.95rem;
+  color: #4b5563;
+}
